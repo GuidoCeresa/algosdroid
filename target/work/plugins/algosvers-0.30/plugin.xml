@@ -1,0 +1,41 @@
+<plugin name='algosvers' version='0.30' grailsVersion='2.2.3 &gt; *'>
+  <author>Gac</author>
+  <title>Algosvers Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/algosvers</documentation>
+  <type>AlgosversGrailsPlugin</type>
+  <resources>
+    <resource>VersioneBootStrap</resource>
+    <resource>spring.resources</resource>
+    <resource>it.algos.algosvers.VersioneController</resource>
+    <resource>it.algos.algosvers.Versione</resource>
+    <resource>it.algos.algosvers.VersioneService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='http://77.43.32.198:8080/artifactory/plugins-release-local/' url='http://77.43.32.198:8080/artifactory/plugins-release-local/' />
+    <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='mysql' name='mysql-connector-java' version='5.1.25' />
+    </runtime>
+  </dependencies>
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='cache' version='1.0.1' />
+    </compile>
+    <runtime>
+      <plugin group='org.grails.plugins' name='hibernate' version='2.2.3' />
+      <plugin group='org.grails.plugins' name='resources' version='1.2' />
+    </runtime>
+    <build>
+      <plugin group='org.grails.plugins' name='tomcat' version='2.2.3' />
+      <plugin group='org.grails.plugins' name='release' version='2.2.1' />
+    </build>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

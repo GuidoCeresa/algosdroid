@@ -1,0 +1,14 @@
+@artifact.package@import grails.test.*
+
+    protected void setUp() {
+        super.setUp()
+    } // fine metodo
+
+    protected void tearDown() {
+        super.tearDown()
+    } // fine metodo
+
+    void testSomething() {
+    } // fine test
+
+} // fine della classe di test

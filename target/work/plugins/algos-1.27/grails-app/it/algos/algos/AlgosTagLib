@@ -1,0 +1,7 @@
+@artifact.package@class @artifact.name@ {
+
+    def tagMethod() {
+    } // fine del metodo
+
+} // fine della tag library
+

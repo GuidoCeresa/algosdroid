@@ -1,0 +1,4 @@
+/* CSS specifico di questa applicazione */
+/* Eventuali modifiche/correzioni/aggiunte rispetto al main.css normale */
+/* Il main.css normale viene sovrascritto da ogni nuova versione del plugin */
+/* mentre questo css non più modificato dal plugin dopo essere stato creato la prima volta */
